@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #070a13;
+    padding: 1.4rem 4.5rem;
+}
+.header__menu{
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .header__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.header__logo{
+    height:var(--size-3xl);
+}
+.header__text{
+    font-size: var(--size-xl);
+    color: white;
+}
+.header__line{
+    border: 1px solid white;
+    margin: 0rem 1rem;
+}
+.header__submit{
+    background-color: rgb(30, 29, 29);
+    border: 1px solid white;
+}
+.header__signin{
+   
+    background-color: var(--clr-violet);   
+    margin-left: 0.75rem;
+}
+.header__signin,.header__submit{
+    font-size: var(--size-xl);
+    border-radius: 0.25rem;
+    padding:0.5rem 2rem ; 
+    color: white;
+}

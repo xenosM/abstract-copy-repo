@@ -1,0 +1,40 @@
+.footer__container{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 3rem 6rem;
+    gap: 4.5rem;
+    justify-content: space-between;
+}
+.footer__content{
+    display: flex;
+    flex-direction:column;
+}
+.footer__content-title{
+font-size: var(--size-2xl);
+margin-bottom:1rem ;
+}
+.footer__container a{
+    color: inherit;
+    font-size:var(--size-base);
+    margin-bottom: 0.4rem;
+}
+.footer__container a:hover{
+    text-decoration: underline;
+    transition-delay: 3s ;
+}
+.footer__container img{
+    width: 40px;
+    height: 40px;
+   margin-bottom: 1rem;
+}
+.footer__container p{
+    font-size: var(--size-xl);
+    margin-bottom: 0.4rem;
+}
+.footer__container h4{
+    margin-top: 2rem;
+}
+.footer__content-special{
+    margin-top: 10rem;
+}
